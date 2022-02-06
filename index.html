@@ -21,11 +21,29 @@
     <div class="main">
         <center>        <h1 class="heading">Ai Object Finder</h1>
                 <button class="btn-hover btn-hover1" onclick="startGame()" id="start">Play Game</button>
-                <button class="btn-hover btn-hover2" onclick="startGame()" id="start">Instructions</button>
+                <button class="btn-hover btn-hover2" data-toggle="modal" data-target="#myModal">Instructions</button>
+                <button class="btn-hover btn-hover3">Reset</button>
                 <br><br>
                 <h3 id="status" class="btn btn-warning"></h3>
               </center>
 
     </div>
+    <div id="myModal" class="modal fade ">
+        <div class="modal-dialog" >
+          <!-- Modal content-->
+          <div class="modal-content">
+      
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4>Instructions</h4>
+            </div>
+      
+             <div class="modal-body">
+               Yet to be uploaded
+              </div>
+
+          </div>
+        </div>
+      </div>
 </body>
 </html>
