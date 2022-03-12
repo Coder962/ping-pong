@@ -1,4 +1,11 @@
-
+function preload() {
+	ball_touch_paddel= loadSound("ball_touch_paddel.wav");
+  mised = loadSound("missed.wav");
+}
+function restart() {
+ var pcscore = 0;
+ var playerscore  = 0;
+}
 
 
 var paddle2 =10,paddle1=10;
